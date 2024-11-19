@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap">
+<link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<link rel="stylesheet" href="css/style.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+<script src="js/main.js"></script>
+<title>portfolio</title>
+</head>
+
+<body>
+<div id="start">
+<header>
+	<div class="inner">
+		<div class="logo">
+			<h1><a href="" class="serif">Portfolio</a></h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="">Intro</a></li>
+				<li><a href="">Skills</a></li>
+				<li><a href="">Project</a></li>
+				<li><a href="">Portfolio</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="open">
+		<a href="" class="tab">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+	</div>
+	<div class="mobile">
+		<ul>
+			<li><a href="">Intro</a></li>
+			<li><a href="">Skills</a></li>
+			<li><a href="">Project</a></li>
+			<li><a href="">Portfolio</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+	</div>
+	<div class="dim"></div>
+</header>
+<div class="main">
+	<div class="media">
+		<div class="main_slider">
+			<div class="swiper-container mainSwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="images/slide1.png" alt="slide1">
+						<div class="content">
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<img src="images/slide2.png" alt="slide2">
+						<div class="content">
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<img src="images/slide3.jpg" alt="slide3">
+						<div class="content">
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<img src="images/slide4.jpg" alt="slide4">
+						<div class="content">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="controller">
+				<div class="num"><span></span> /</div>
+				<div class="timeline"><span></span></div>
+				<div class="direction">
+					<a href="" class="prev">prev</a>
+					<a href="" class="next">next</a>
+				</div>
+			</div>
+		</div>
+		<div class="keytext">
+			<div class="inner">
+				<h2 class="concept">
+					<strong>frontend</strong>
+					<strong>creative</strong>
+					<strong>developer</strong>
+				</h2>
+				<p class="title">프론트엔드 개발자로서 원활한 커뮤니케이션을 통해 문제를 효율적으로 해결하고, 최신 기술을 활용해 프로젝트를 성공적으로 이끌어가고 싶습니다.</p>
+			</div>
+		</div>
+		<div class="introduce">
+			<div class="title">
+				<span>창의력</span>과 <span>기술</span>로
+				<span>새로운 경험을 선사하는<br></span> 신입 신입프론트엔드 개발자 김혜현입니다.
+			</div>
+		</div>
+	</div>
+</div>
+<section id="page1">
+	<div class="inner">
+		<div class="title serif">skills</div>
+		<div class="skills">
+			<ul>
+				<li>
+					<em class="num">01</em>
+					<h4>HTML & CSS & SASS</h4>
+					<span>HTML5 DTD 문법 준수 및 웹 접근성을 높인 Semantic Page 작성</span>
+					<p>
+						IR 기법을 이용한 스타일 구현, 모바일 스타일 구현,<br>
+						전처리 기능을 CSS 프로그래밍 구현
+					</p>
+				</li>
+				<li>
+					<em class="num">02</em>
+					<h4>JavaScript</h4>
+					<span>jQuery 플러그인 활용 및 구현</span>
+					<p>외부 API 구현(Google Map, SwiperJS)</p>
+				</li>
+				<li>
+					<em class="num">03</em>
+					<h4>PWA</h4>
+					<span>웹 기술을 사용하여 네이티브 앱과 유사한 사용자 경험을 제공하는 PWA를 제작</span>
+					<p>
+						프로그레시브 웹 앱(progressive web app) 구현<br>
+						HTML, CSS, JavaScript와 같은 웹 기술로 만드는 앱 구현
+					</p>
+				</li>
+				<li>
+					<em class="num">04</em>
+					<h4>SCM</h4>
+					<span>GitHub를 활용한 Git 시스템 협업 및 Figma를 이용한 사용자 가이드 작성</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<section id="page2">
+	<div class="inner">
+		<div class="title serif">Project</div>
+		<div class="Casestudy">
+			<ul>
+				<li>
+					<strong class="brand">Wylie Web</strong>
+					<div class="desc">
+						<p>사이트가 스크롤에 반응하여 서서히 구현되는 애니메이션을 ScrollTriger 라이브러리를 이용해 제작했습니다. <br>JavaScript를 통해 상단의 네비게이션을 누르면 일치하는 콘텐츠가 있는 영역으로 이동되도록
+						구현했으며 해상도에 따라 레이아웃이 변하는 반응형 사이트로 제작되었습니다.</p>
+						<a href="https://delight0414.github.io/casestudy3/" target="pop">
+							<span>WEBSITE</span>
+						</a>
+					</div>
+				</li>
+				<li>	
+					<strong class="brand">o'kichen</strong>
+					<div class="desc">
+						<p>URL로 접속하여 쉽게 설치하고 이용할 수 있는 프로그레시브 웹 앱입니다.<br> SwiperJS 라이브러리를 통해 컨텐츠와 광고 배너를 둘러볼 수 있게 제작하였으며 검색 버튼을 누르면 검색 화면으로 이동할 수 있습니다.<br>
+						검색 화면의 '최근에 본 레시피' 섹션에서 '더보기' 버튼을 누르면 상세 페이지로 넘어갈 수 있고, 페이지 이동에 따라 헤더의 디자인과 기능이 변하도록 제작했습니다.</p>
+						<a href="https://delight0414.github.io/casestudy3/" target="pop">
+							<span>WEBSITE</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<strong class="brand">ArtCenter Nabi</strong>
+					<div class="desc">
+						<p>정적 JSON 데이터 로딩 및 상품 페이지 랜더링<br>
+						컴포넌트를 활용한 지역번호 동적 랜더링<br>
+						SASS 활용, Nesting 및 Mixin 기능 활용</p>
+						<a href="https://delight0414.github.io/casestudy3/" target="pop">
+							<span>WEBSITE</span>
+						</a>
+					</div>
+				</li>
+				<li>
+					<strong class="brand">WConcept</strong>
+					<div class="desc">
+						<p>SwiperJS를 활용한 슬라이더 구현<br>
+						useAgent API를 활용한 모바일 분기<br>
+						GitHub를 활용한 버전 관리</p>
+						<a href="https://delight0414.github.io/casestudy3/" target="pop">
+							<span>WEBSITE</span>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<section id="page3">
+	<div class="update">
+		<div class="title serif">Portfolio</div>
+		<div class="swiper_wrap">
+			<div class="swiper updateSwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="thumb">
+							<a href=""><img src="images/project2.png" alt="project2"></a>
+						</div>
+						<div class="desc">
+							<div class="name serif">open source1</div>
+							<p>설명</p>
+							<a href="" class="btn">View More</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="thumb">
+							<a href=""><img src="images/project3.png" alt="project3"></a>
+						</div>
+						<div class="desc">
+							<div class="name serif">open source2</div>
+							<p>설명</p>
+							<a href="" class="btn">View More</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="thumb">
+							<a href=""><img src="images/project4.png" alt="project4"></a>
+						</div>
+						<div class="desc">
+							<div class="name serif">open source3</div>
+							<p>
+								설명
+							</p>
+							<a href="" class="btn">View More</a>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="thumb">
+							<a href=""><img src="images/project5.png" alt="project5"></a>
+						</div>
+						<div class="desc">
+							<div class="name serif">b.state design</div>
+							<p>
+								건강한 광채를 선사하는
+							</p>
+							<a href="" class="btn">View More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="contact">
+	<div class="sec-inner">
+		<div class="contact-top">
+			<div class="contact-heading">
+				<div class="text_wrap">
+					<div class="inline">
+						<div class="text_title serif">CONTACT</div>
+					</div>
+				</div>
+			</div>
+			<div class="information">
+				<ul>
+					<li><span>E-MAIL</span>
+						<p>hyehyeon2000@naver.com</p>
+					</li>
+					<li><span>MOBILE</span>
+						<p>010-6877-0366</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="contact-bottom">
+			<ul>
+				<li><a href="https://codepen.io/your-work" target="pop" class="button"><span class="link"><span
+								class="link_inner"><span>CODEPEN</span><span
+									class="link_animated">CODEPEN</span></span></span></a></li>
+				<li><a href="https://www.figma.com/@hyehyeon" target="pop" class="button"><span class="link"><span
+								class="link_inner"><span>FIGMA</span><span
+									class="link_animated">FIGMA</span></span></span></a></li>
+				<li><a href="https://github.com/Hyehyeon-web" target="pop" class="button"><span class="link"><span
+								class="link_inner"><span>GITHUB</span><span
+									class="link_animated">GITHUB</span></span></span></a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+</div>
+</body>
+</html>
